@@ -1,0 +1,117 @@
+body {
+  background-color: #f5f5dc;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+body::selection {
+  background-color: #75523a;
+  color: white;
+}
+
+h1, h2, p{
+  margin:20px;
+  
+}
+.farm-img {
+  width: 100%;
+  height:auto;
+  opacity: 0.5;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: linear
+}
+
+/* not percentage */
+img {
+ height: 186.2px;
+ width: 186.2px;
+}
+
+footer p {
+  display: inline;
+}
+
+.logo-img-top {
+  height:10%;
+  width: 10%;
+  position: relative;
+  top: -25px;
+  left: -25px;
+}
+
+.logo-img {
+  height:10%;
+  width: 10%;
+  position: relative;
+}
+
+footer {
+  background-color: #d0bcaf;
+}
+
+h2 {
+  border-left: 4px solid  #126c31;
+}
+
+h1, h2, li, p, figcaption {
+  color: rgb(79, 55, 55);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  width: calc(98% / 4);
+  background-color: #d0bcaf;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+figure {
+  margin: 0; /* user agent give it default margin */
+  width: 186.2px;
+}
+
+
+.introsec {
+  position: relative;
+} 
+
+.intro {
+  position: absolute;
+  top:50px;
+  left: 20px;
+  font-size: 40px;
+}
+
+.farm-img:hover {
+  opacity: 1.0;
+}
+
+.explore {
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  transition-property: width, heigth;
+  transition-timing-function: linear;
+}
+.explore:hover {
+  height: 200px;
+  width: 200px;
+}

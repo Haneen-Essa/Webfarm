@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content=" this is a farm to shop from your organic need" />
+        <title>Haneen Farm</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+      <h1>Log_in</h1>
+      <form action="file.php" method="post">
+        <div>
+          <label>Username</label>
+          <input type="text" name="user" required autofocus />
+        </div>
+        <br />
+        <div>
+          <label>Email</label>
+          <input class="email" type="email" name="mail" required placeholder="user@domain.com" />
+        </div>
+        <br />
+        <div>
+          <label>Password</label>
+          <input type="password"
+                 name="pass" 
+                 required 
+                 placeholder="use letters & numbers" 
+                 title="Use a strong password" />
+        </div>
+        <a href="">Forgot Password</a>
+        <br />
+        <br />
+        <input class="login" type="submit" value="Log_in" />
+      </form>
+      <p>Don't have an account?<a href="">Sign up</a></p>
+    </body>
+</html>
